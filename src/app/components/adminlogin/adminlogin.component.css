@@ -44,4 +44,6 @@ input[type="password"] {
   background: #6a99f0;
   border-radius: 5px;
   }
-    
+    #msg{
+      color: red;
+    }
