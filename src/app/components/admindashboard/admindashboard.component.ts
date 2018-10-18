@@ -40,8 +40,8 @@ export class AdmindashboardComponent implements OnInit {
           var html='';
           for(let index=0;index<arr.length;index++)
           {
-            html+="<div class='card'>";
-            html+="<div class='card-header'>"+arr[index].service+"</div>";
+            html+="<div class='card col-sm-2  mt-4 mr-5 mx-auto'>";
+            html+="<div class='card-header'style='background: linear-gradient(to bottom, #003366 0%, #ffff66 100%);color:white;'>"+arr[index].service+"</div>";
             html+="<div class='card-body'>"+arr[index].count+"</div>";
             html+="</div>";
             $("#services").html(html);
@@ -65,7 +65,7 @@ export class AdmindashboardComponent implements OnInit {
       
         console.log("successfull");
         console.log(response);
-        for ( var i=0 ; i<response.data.data.length ; i++ ) {
+        for ( var i=1 ; i<response.data.data.length ; i++ ) {
           data.push( [ i,response.data.data[i].firstName,response.data.data[i].lastName,response.data.data[i].email,response.data.data[i].service ] );
         }
         $('#example').DataTable( {

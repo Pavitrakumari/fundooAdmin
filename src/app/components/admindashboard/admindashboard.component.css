@@ -1,42 +1,15 @@
-.navbar {
-    background-color: orange;
-    margin-bottom: 0px;
-    border-radius: 0px;
-    height:80px;
-    position: sticky;
-  }
-  
-  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-  .row.content {height: 0px;background-color: rgb(241, 70, 241)}
-  
-  /* Set gray background color and 100% height */
-  .sidenav {
-    padding-top: -10px;
-    
-    color: black;
-  }
-
-h4{
-    margin-left:500px;
-    color: black;
-    font-weight: normal;
-    font-size: 50px;
-    font-style: unset;
+.navbar{
+  background-color: #003366;
+  position:sticky;
 }
-  /* Set black background color, white text and some padding */
-  
-  /* On small screens, set height to 'auto' for sidenav and grid */
-  @media screen and (max-width: 77px) {
-    .sidenav {
-      height: auto;
-      padding: 15px;
-    }
-    .row.content {height:30px;} 
-  }
-  .pavi1{
-    background-color: rgb(185, 81, 81);
-  }
-.navbar-header{
-  position: sticky;
+.container-fluid{
+  background-color: rgba(152, 196, 207, 0.171);
+}
+h3{
 
+color: #fafaf6;
+}
+h5{
+    background-color: none;
+  color: rgb(251, 246, 253);
 }
