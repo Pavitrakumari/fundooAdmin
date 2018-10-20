@@ -1,9 +1,10 @@
 .navbar{
   background-color: #003366;
-  position:sticky;
-}
+  position: sticky;
+  top: 0;
+  z-index: 1;}
 .container-fluid{
-  background-color: rgba(152, 196, 207, 0.171);
+  background-color: rgba(244, 250, 244, 0.171);
 }
 h3{
 
@@ -12,4 +13,23 @@ color: #fafaf6;
 h5{
     background-color: none;
   color: rgb(251, 246, 253);
+}
+.row{
+  /* background-image: url("../../../assets/images/img1.jpg"); */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: center;
+  border-radius: 50%;
+
+}
+.bg{
+  /* background-image: url("../../../assets/images/img1.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    /* Full height */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+
 }

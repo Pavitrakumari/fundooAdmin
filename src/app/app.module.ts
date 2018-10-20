@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { AdminloginComponent } from './components/adminlogin/adminlogin.component';
 import { AdmindashboardComponent } from './components/admindashboard/admindashboard.component';
 import { AppRoutingModule } from './app-routing.module';
+import { AuthguardGuard } from './auth/authguard.guard';
+import { AuthService } from './services/auth.service';
 
 
 /**Feature modules are NgModules for the purpose of organizing code.*/
@@ -21,7 +23,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],/**A provider is an instruction to the DI system on how to obtain a value for a dependency */
+  providers: [AuthguardGuard,AuthService],/**A provider is an instruction to the DI system on how to obtain a value for a dependency */
   bootstrap: [AppComponent]
 })
 export class AppModule { }

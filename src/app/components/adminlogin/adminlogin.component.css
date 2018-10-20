@@ -7,7 +7,8 @@
   max-width: 420px;
   padding: 30px 38px 66px;
   margin: 0 auto;
-  background-color: rgb(238, 213, 238);
+  background:  linear-gradient(to bottom, #ccffcc 0%, #ffffcc 100%);
+  /* height: 200px; */
   border: 3px ;  
   }
 .center{
@@ -15,6 +16,7 @@
     
 }
 .form-signin-heading {
+  
   text-align:center;
   margin-bottom: 30px;
 }
